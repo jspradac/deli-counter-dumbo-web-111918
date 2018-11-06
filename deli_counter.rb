@@ -19,7 +19,7 @@ def now_serving(queue)
   if queue.length > 0 
     puts "Now serving #{queue.shift}"
   else 
-    puts "The line is empty"
+    puts "There is nobody waiting to be served!"
   end 
 end 
 
