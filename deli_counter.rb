@@ -13,7 +13,7 @@ def line(queue)
 end 
 def take_a_number(queue, name)
   queue.push(name)
-  puts "Welcome, #{name}. You are number #{queue.index(guest_number) + 1} in line."
+  puts "Welcome, #{name}. You are number #{queue.index(name) + 1} in line."
 end 
     
   
