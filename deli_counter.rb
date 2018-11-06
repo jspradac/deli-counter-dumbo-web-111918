@@ -15,7 +15,15 @@ def take_a_number(queue, name)
   queue.push(name)
   puts "Welcome, #{name}. You are number #{queue.index(name) + 1} in line."
 end 
-    
+def now_serving(queue)
+  if queue.length > 0 
+    puts "Now serving #{queue.shift}"
+  else 
+    puts "The line is empty"
+  end 
+end 
+
+  
   
   
   
