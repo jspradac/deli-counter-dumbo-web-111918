@@ -1,6 +1,6 @@
 # Write your code 
 queue = []
-def line 
+def line(queue)
   if queue.length > 0 
     puts queue 
   else 
